@@ -94,4 +94,4 @@ def login():
 
 # POST isteği, kullanıcının belirli bir eylem gerçekleştirmesi için sunucuya bilgi göndermesini sağlar. Bu durumda, kullanıcının giriş yapmak için kullanıcı adı ve parola bilgilerini göndermesi amaçlanmaktadır.
 
-# Bu fonksiyon, msg değişkenine bir boş dize atar ve index.html şablonunu renderlayarak kullanıcıya gösterir. render_template fonksiyonu, Flask uygulamasının /templates klasöründeki HTML dosyalarını renderlamak için kullanılır. Bu durumda, index.html dosyası kullanıcının görüntüleyeceği HTML dosyasıdır ve msg değişkeni bu dosyada kullanılmak üzere aktarılır.    
+# Bu fonksiyon, msg değişkenini ve index.html şablonunu renderlayarak kullanıcıya gösterir. render_template fonksiyonu, Flask uygulamasının /templates klasöründeki HTML dosyalarını renderlamak için kullanılır. Bu durumda, index.html dosyası kullanıcının görüntüleyeceği HTML dosyasıdır ve msg değişkeni bu dosyada kullanılmak üzere aktarılır.    
